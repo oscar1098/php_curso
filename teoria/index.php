@@ -176,6 +176,22 @@
             echo "No puedes entrar";
         }
     }
+    echo "<br><br>";
+
+    //? CONSTANTES 
+
+    echo "CONSTANTES";
+
+    echo "<br><br>";
+
+    define("AUTOR","Juan");
+
+    echo AUTOR;
+    echo "<br><br>";
+
+    echo "La linea de la instruccion es: " . __LINE__ ;
+    
+    
   
 ?>
 </body>
