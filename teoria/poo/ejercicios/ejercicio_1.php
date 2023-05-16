@@ -13,7 +13,7 @@ class Calculadora{
         return $this->num1 + $this->num2;
     }
 
-    public  function resta(){
+    public  function resta(){  
         return $this->num1 - $this->num2;
     }
 
@@ -38,5 +38,5 @@ class Calculadora{
     echo $operaciones->num1. "-" . $operaciones->num2 . "=" . $operaciones->resta() . "<br>";
     echo  $operaciones->num1. "*" . $operaciones->num2 . "=" . $operaciones->multiplicacion() . "<br>" ; 
     echo $operaciones->num1. "/" . $operaciones->num2 . "=" . $operaciones->division() . "<br>"; 
-    echo $operaciones->conjunto();
+    // echo $operaciones->conjunto();
 ?>
