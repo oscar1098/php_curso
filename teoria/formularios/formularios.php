@@ -56,6 +56,18 @@
             <br>
             <input type="file" name="image">
         </label>
+    <br>
+    <br>
+    <select name="sexo2">
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+    </select>
+    <br>
+    <br>
+
+    <label>Mensaje</label>
+    <br>
+    <textarea name="mensaje" cols="30" rows="10"></textarea>
 
     <br>
     <br>
@@ -71,6 +83,6 @@
         <input type="text" name="name2">
     </label>
     <button type="submit">Enviar</button> -->
-    </form>
+    </form> 
 </body>
 </html>
